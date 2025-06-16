@@ -1,10 +1,10 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import ApperIcon from '@/components/ApperIcon';
-import Button from '@/components/atoms/Button';
-import SpeedMeter from '@/components/molecules/SpeedMeter';
-import TimerDisplay from '@/components/molecules/TimerDisplay';
-import ProgressBar from '@/components/molecules/ProgressBar';
+import React from "react";
+import { motion } from "framer-motion";
+import ApperIcon from "@/components/ApperIcon";
+import Button from "@/components/atoms/Button";
+import SpeedMeter from "@/components/molecules/SpeedMeter";
+import TimerDisplay from "@/components/molecules/TimerDisplay";
+import ProgressBar from "@/components/molecules/ProgressBar";
 
 const HUDOverlay = ({ 
   gameState, 
@@ -139,13 +139,13 @@ const HUDOverlay = ({
             animate={{ opacity: 1, y: 0 }}
             className="bg-surface-800/90 backdrop-blur-sm rounded-xl p-4 border border-surface-700"
           >
-            <div className="text-xs text-surface-300 space-y-1">
+<div className="text-xs text-surface-300 space-y-1">
               <div>↑/W: Accelerate</div>
               <div>↓/S: Brake</div>
               <div>←→/AD: Steer</div>
             </div>
           </motion.div>
-        )}
+        </div>
       )}
     </div>
   );

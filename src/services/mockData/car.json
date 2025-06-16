@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "name": "Lightning Bolt",
+    "maxSpeed": 85,
+    "acceleration": 75,
+    "handling": 60,
+    "design": "red-sports",
+    "color": "#FF1744",
+    "description": "Fast and furious with top-tier speed"
+  },
+  {
+    "Id": 2,
+    "name": "Thunder Strike",
+    "maxSpeed": 70,
+    "acceleration": 90,
+    "handling": 80,
+    "design": "blue-racer",
+    "color": "#1E88E5",
+    "description": "Quick acceleration and nimble handling"
+  },
+  {
+    "Id": 3,
+    "name": "Golden Arrow",
+    "maxSpeed": 78,
+    "acceleration": 65,
+    "handling": 85,
+    "design": "yellow-drift",
+    "color": "#FFEB3B",
+    "description": "Perfect balance of speed and control"
+  },
+  {
+    "Id": 4,
+    "name": "Shadow Rider",
+    "maxSpeed": 82,
+    "acceleration": 70,
+    "handling": 75,
+    "design": "black-stealth",
+    "color": "#2A2A2A",
+    "description": "Mysterious and powerful all-rounder"
+  },
+  {
+    "Id": 5,
+    "name": "Neon Flash",
+    "maxSpeed": 75,
+    "acceleration": 85,
+    "handling": 70,
+    "design": "purple-glow",
+    "color": "#9C27B0",
+    "description": "Electric performance with style"
+  },
+  {
+    "Id": 6,
+    "name": "Fire Storm",
+    "maxSpeed": 88,
+    "acceleration": 60,
+    "handling": 65,
+    "design": "orange-flame",
+    "color": "#FF5722",
+    "description": "Maximum speed demon for straight tracks"
+  }
+]

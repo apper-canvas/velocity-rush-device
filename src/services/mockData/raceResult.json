@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "carId": 1,
+    "playerName": "Speed Demon",
+    "time": 89.45,
+    "date": "2024-01-15T10:30:00Z",
+    "track": "circuit-alpha"
+  },
+  {
+    "Id": 2,
+    "carId": 3,
+    "playerName": "Racing Pro",
+    "time": 92.18,
+    "date": "2024-01-14T15:22:00Z",
+    "track": "circuit-alpha"
+  },
+  {
+    "Id": 3,
+    "carId": 2,
+    "playerName": "Track Master",
+    "time": 94.73,
+    "date": "2024-01-13T09:45:00Z",
+    "track": "circuit-alpha"
+  },
+  {
+    "Id": 4,
+    "carId": 4,
+    "playerName": "Velocity King",
+    "time": 96.29,
+    "date": "2024-01-12T16:15:00Z",
+    "track": "circuit-alpha"
+  },
+  {
+    "Id": 5,
+    "carId": 5,
+    "playerName": "Drift Legend",
+    "time": 98.56,
+    "date": "2024-01-11T11:30:00Z",
+    "track": "circuit-alpha"
+  }
+]

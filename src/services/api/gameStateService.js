@@ -31,14 +31,14 @@ class GameStateService {
     return { ...this.gameState };
   }
 
-  async resetGameState() {
+async resetGameState() {
     await delay(100);
     this.gameState = {
       currentCar: this.gameState.currentCar, // Keep selected car
       raceInProgress: false,
       currentTime: 0,
       lapProgress: 0,
-      position: { x: 0, y: 0, angle: 0 },
+      position: { x: 400, y: 500, angle: 0 },
       speed: 0,
       lap: 1,
       totalLaps: 3,
@@ -55,6 +55,8 @@ class GameStateService {
     this.gameState.currentTime = 0;
     this.gameState.lapProgress = 0;
     this.gameState.lap = 1;
+    this.gameState.position = { x: 400, y: 500, angle: 0 };
+    this.gameState.speed = 0;
     return { ...this.gameState };
   }
 
